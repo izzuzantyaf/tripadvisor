@@ -1,0 +1,48 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.navbare .collapse p:hover {
+  background-color: #e2e2e2;
+}
+
+.atas {
+  background-color: #060e53;
+  min-height: 700px;
+  padding-top: 150px;
+  margin-top: -50px;
+}
+
+a:hover {
+  text-decoration: none;
+  /* opacity: 0.5; */
+}
+
+.kaki .sosmed svg,
+.kartu img,
+.turun img {
+  width: 25px;
+  height: 25px;
+}
+
+.turun {
+  right: 0;
+}
+
+.kartu {
+  background-color: #ffffff;
+}
+
+.kaki {
+  background-color: #272727;
+}
+
+.login_admin {
+  margin-top: 100px;
+}
+
+button:hover {
+  opacity: 0.7;
+}
+
+/*# sourceMappingURL=style.css.map */

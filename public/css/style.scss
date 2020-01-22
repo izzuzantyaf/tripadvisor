@@ -1,0 +1,67 @@
+$primary_color:#060e53;
+$footer-color:#272727;
+$font_stack:'Open Sans',
+sans-serif;
+
+body {
+    font-family: $font_stack;
+}
+
+.navbare {
+    .collapse {
+        p:hover {
+            background-color: #e2e2e2;
+        }
+    }
+}
+
+.atas {
+    background-color: rgba($primary_color, $alpha: 1.0);
+    min-height: 700px;
+    padding-top: 150px;
+    margin-top: -50px;
+}
+
+a:hover {
+    text-decoration: none;
+    opacity: 0.5;
+}
+
+%icon_size {
+    width: 25px;
+    height: 25px;
+}
+
+.turun {
+    right: 0;
+
+    img {
+        @extend %icon_size;
+    }
+}
+
+.kartu {
+    background-color: #ffffff;
+
+    img {
+        @extend %icon_size;
+    }
+}
+
+.kaki {
+    background-color: $footer-color;
+
+    .sosmed {
+        svg {
+            @extend %icon_size;
+        }
+    }
+}
+
+.login_admin {
+    margin-top: 100px;
+}
+
+button:hover {
+    opacity: 0.7;
+}
